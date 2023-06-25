@@ -9,7 +9,7 @@
     <meta name="description" content="We are dot" />
     <meta name="author" content="Devcrud" />
     <title>Dot</title>
-    <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.ico" />
     <link
       rel="stylesheet"
       href="assets/vendors/themify-icons/css/themify-icons.css"
@@ -62,9 +62,22 @@
         <h1 class="header-title">
           <span class="up">HI!</span>
           <span class="down">We are DOT.</span>
+          <p class="section-subtitle tagline">
+            Want to compete with 
+            <!-- Dmart, JIO mart, amazon, flipkart, Dunzo, Zepto, and Blinkit? -->
+            <div>
+              <img id="d-mart" class="brand-icons" src="assets/imgs/d-mart.png" alt="d-mart" />
+              <img id="jio-mart" class="brand-icons" src="assets/imgs/JioMart_logo.svg" alt="jio-mart" />
+              <img id="amazon" class="brand-icons" src="assets/imgs/Amazon_icon.svg.png" alt="amazon" />
+              <img id="flipkart" class="brand-icons" src="assets/imgs/flipkart-icon.png" alt="flipkart" />
+              <img id="dunzo" class="brand-icons" src="assets/imgs/dunzo.png" alt="dunzo" />
+              <img id="blinkit" class="brand-icons" src="assets/imgs/Blinkit-yellow-app-icon.svg" alt="blinkit" />
+              <img id="zepto" class="brand-icons" src="assets/imgs/zepto.png" alt="zepto" />
+            </div>
+          </p>
         </h1>
         <a href="#contact">
-          <button class="btn btn-primary">I'm interested</button>
+          <button class="btn btn-primary interested-btn">I'm interested</button>
         </a>
       </div>
     </header>
@@ -113,10 +126,6 @@
 
     <section class="section" id="partner-with-dot">
       <div class="container text-center">
-        <p class="section-subtitle">
-          Want to compete with Dmart, JIO mart, amazon, flipkart, Dunzo, Zepto,
-          and Blinkit?
-        </p>
         <h6 class="section-title mb-6">Partner with Dot.</h6>
 
         <div class="row">
@@ -171,7 +180,11 @@
                 <h6 class="testimonial-card-subtitle">
                   Use your shop space to store inventory
                 </h6>
-                <p class="testimonial-card-text">
+                <div class="more-info-button">
+                  <img id="down-arrow" src="assets/imgs/down-arrow.png" alt="down" />
+                  <img id="up-arrow" src="assets/imgs/up-arrow.png" alt="up" />
+                </div>
+                <p class="testimonial-card-text card-content">
                   Allow us to utilize your shop as a storage location for
                   products.
                 </p>
@@ -184,7 +197,12 @@
                 <h6 class="testimonial-card-subtitle">
                   Operate as a physical store and accept online orders
                 </h6>
-                <p class="testimonial-card-text">
+                <div class="more-info-button">
+                  <img id="down-arrow" src="assets/imgs/down-arrow.png" alt="down" />
+                  <img id="up-arrow" src="assets/imgs/up-arrow.png" alt="up" />
+
+                </div>
+                <p class="testimonial-card-text card-content">
                   Continue running your shop as a normal physical store while
                   also accepting online orders through our platform.
                 </p>
@@ -197,7 +215,12 @@
                 <h6 class="testimonial-card-subtitle">
                   Delivery handled by our partners
                 </h6>
-                <p class="testimonial-card-text">
+                <div class="more-info-button">
+                  <img id="down-arrow" src="assets/imgs/down-arrow.png" alt="down" />
+                  <img id="up-arrow" src="assets/imgs/up-arrow.png" alt="up" />
+
+                </div>
+                <p class="testimonial-card-text card-content">
                   The delivery of online orders will be managed by our reliable
                   delivery partners
                 </p>
@@ -223,7 +246,12 @@
             <div class="service-card">
               <div class="body">
                 <h6 class="testimonial-card-subtitle">Retail margins</h6>
-                <p class="testimonial-card-text">
+                <div class="more-info-button">
+                  <img id="down-arrow" src="assets/imgs/down-arrow.png" alt="down" />
+                  <img id="up-arrow" src="assets/imgs/up-arrow.png" alt="up" />
+
+                </div>
+                <p class="testimonial-card-text card-content">
                   You will earn the same retail margins as before, similar to
                   what other merchants earn
                 </p>
@@ -234,7 +262,12 @@
             <div class="service-card">
               <div class="body">
                 <h6 class="testimonial-card-subtitle">Credit on inventory</h6>
-                <p class="testimonial-card-text">
+                <div class="more-info-button">
+                  <img id="down-arrow" src="assets/imgs/down-arrow.png" alt="down" />
+                  <img id="up-arrow" src="assets/imgs/up-arrow.png" alt="up" />
+
+                </div>
+                <p class="testimonial-card-text card-content">
                   You will receive the entire inventory on credit until the
                   products are sold to customers.
                 </p>
@@ -245,7 +278,12 @@
             <div class="service-card">
               <div class="body">
                 <h6 class="testimonial-card-subtitle">Deep discounts</h6>
-                <p class="testimonial-card-text">
+                <div class="more-info-button">
+                  <img id="down-arrow" src="assets/imgs/down-arrow.png" alt="down" />
+                  <img id="up-arrow" src="assets/imgs/up-arrow.png" alt="up" />
+
+                </div>
+                <p class="testimonial-card-text card-content">
                   You can provide deep discounts to customers, similar to what
                   retail and e-commerce giants like Dmart offer, without
                   reducing your margins.
@@ -267,30 +305,50 @@
         <div class="about">
           <div class="about-caption">
             <p class="about-text">
-              <strong>1. Store and inventory management:</strong> You will be
-              responsible for managing the store and inventory, ensuring
-              everything is well-organized and stocked.
-              <br />
-              <br />
-              <strong>2. Handling physical customers:</strong> You will continue
-              serving customers who visit your store in person.
-              <br />
-              <br />
-              <strong>3. Online order management: </strong> You need to
-              accurately and promptly manage online orders before our delivery
-              partners arrive at your store for pickup
-              <br />
-              <br />
-              <strong>4. Billing through DotPOS: </strong> Use our DotPOS system
-              to handle billing and payment transactions for both offline and
-              online orders.
-              <br />
-              <br />
-              <strong>5. Return order management: </strong> Collect return
-              orders from our delivery partners in cases where customers wish to
-              return products.
-              <br />
-              <br />
+              <div class="about-card">
+                <p class="about-card-title">Store and inventory management
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content"> You will be
+                  responsible for managing the store and inventory, ensuring
+                  everything is well-organized and stocked.
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Handling physical customers
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">You will continue
+                  serving customers who visit your store in person.
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Online order management
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">You need to
+                  accurately and promptly manage online orders before our delivery
+                  partners arrive at your store for pickup
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Billing through DotPOS
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">Use our DotPOS system
+                  to handle billing and payment transactions for both offline and
+                  online orders.
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Return order management
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content"> Collect return
+                  orders from our delivery partners in cases where customers wish to
+                  return products.
+                </div>
+              </div>
             </p>
           </div>
         </div>
@@ -310,62 +368,92 @@
         <div class="about">
           <div class="about-caption">
             <p class="about-text">
-              <strong>1. Deep Discounts:</strong> We enable you to offer
-              enticing discounts to your customers without reducing your
-              margins. This means you can sell products at the same affordable
-              prices as industry leaders like Dmart, capturing the attention of
-              cost-conscious buyers and winning their loyalty.
-              <br />
-              <br />
-              <strong> 2. Online Presence:</strong> With Dot, you can transcend
-              the boundaries of your physical store and establish a strong
-              online presence. Reach customers beyond your local area and tap
-              into the vast potential of e-commerce, expanding your customer
-              base and boosting sales.
-              <br />
-              <br />
-              <strong>3. Increased Sales and Income:</strong> By leveraging our
-              omnichannel platform, you unlock the potential for increased sales
-              and, in turn, higher income. The combination of offline and online
-              sales channels, along with the ability to offer deep discounts,
-              creates a compelling value proposition that attracts customers and
-              drives revenue growth.
-              <br />
-              <br />
-              <strong>4. Wider Geographical Reach: </strong> Through the Dot
-              Partner Program, your shop gains wider geographical reach.
-              Customers from various regions can discover and shop from your
-              store, further expanding your market reach and business
-              opportunities.
-              <br />
-              <br />
-              <strong>5. Low Investment and Working Capital: </strong> Starting
-              and continuing your business as a Dot partner requires minimal
-              investment and working capital. We provide you with the necessary
-              tools and resources to succeed, eliminating many of the financial
-              barriers that often hinder business growth.
-              <br />
-              <br />
-              <strong>6. Access to Multiple Brands: </strong> As a Dot partner,
-              you gain access to a diverse range of brands and products. This
-              comprehensive assortment allows you to cater to a broader customer
-              base, fulfilling their diverse needs and preferences
-              <br />
-              <br />
-              <strong>7. Credit until the inventory get sold: </strong> We offer
-              a unique advantage by providing you with 100% credit on your stock
-              until it is sold to customers. This eliminates the need for
-              immediate upfront investment, allowing you to manage your working
-              capital more efficiently.
-              <br />
-              <br />
-              <strong
-                >8. Assortment Recommendation and Merchandising Support:
-              </strong>
-              Our platform provides valuable insights and recommendations to
-              optimize your product assortment and improve merchandising.
-              <br />
-              <br />
+              <div class="about-card">
+                <p class="about-card-title">Deep Discounts
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">We enable you to offer
+                enticing discounts to your customers without reducing your
+                margins. This means you can sell products at the same affordable
+                prices as industry leaders like Dmart, capturing the attention of
+                cost-conscious buyers and winning their loyalty.
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Online Presence
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">With Dot, you can transcend
+                  the boundaries of your physical store and establish a strong
+                  online presence. Reach customers beyond your local area and tap
+                  into the vast potential of e-commerce, expanding your customer
+                  base and boosting sales.
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Increased Sales and Income
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">By leveraging our
+                  omnichannel platform, you unlock the potential for increased sales
+                  and, in turn, higher income. The combination of offline and online
+                  sales channels, along with the ability to offer deep discounts,
+                  creates a compelling value proposition that attracts customers and
+                  drives revenue growth.
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Wider Geographical Reach
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">Through the Dot
+                  Partner Program, your shop gains wider geographical reach.
+                  Customers from various regions can discover and shop from your
+                  store, further expanding your market reach and business
+                  opportunities.
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Low Investment and Working Capital
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">Starting
+                  and continuing your business as a Dot partner requires minimal
+                  investment and working capital. We provide you with the necessary
+                  tools and resources to succeed, eliminating many of the financial
+                  barriers that often hinder business growth.
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Access to Multiple Brands
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">As a Dot partner,
+                  you gain access to a diverse range of brands and products. This
+                  comprehensive assortment allows you to cater to a broader customer
+                  base, fulfilling their diverse needs and preferences
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Credit until the inventory get sold
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">We offer
+                  a unique advantage by providing you with 100% credit on your stock
+                  until it is sold to customers. This eliminates the need for
+                  immediate upfront investment, allowing you to manage your working
+                  capital more efficiently.
+                </div>
+              </div>
+              <div class="about-card">
+                <p class="about-card-title">Assortment Recommendation and Merchandising Support
+                  <span class="about-more-info"><img id="arrow-down-btn" src="assets/imgs/arrow-down.png" alt="down" /><img id="arrow-up-btn" src="assets/imgs/arrow-up.png" alt="down" /></span>
+                </p> 
+                <div class="about-card-content">
+                  Our platform provides valuable insights and recommendations to
+                  optimize your product assortment and improve merchandising.
+                </div>
+              </div>
             </p>
           </div>
         </div>
