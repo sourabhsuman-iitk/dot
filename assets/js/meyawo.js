@@ -64,7 +64,6 @@ const moreInfoCardBtns = document.querySelectorAll(".about-more-info");
 moreInfoCardBtns.forEach(function (btn) {
   btn.addEventListener("click", function () {
     const card = this.parentNode.parentNode;
-    console.log(card);
     const content = card.querySelector(".about-card-content");
     const downArrow = card.querySelector("#arrow-down-btn");
     const upArrow = card.querySelector("#arrow-up-btn");
