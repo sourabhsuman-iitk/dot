@@ -11626,6 +11626,11 @@ p {
   transition: all, 0.3s;
 }
 
+#tile-icon {
+  height: 80px;
+  margin: 10px 10px 15px 10px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .service-card .body img.icon {
     -webkit-transition: none;
