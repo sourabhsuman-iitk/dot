@@ -12707,6 +12707,7 @@ pre .code {
   -ms-flex-positive: 1;
   flex-grow: 1;
   text-align: center;
+  width: 100%;
 }
 .about-card {
   width: 100%;
@@ -12722,7 +12723,7 @@ pre .code {
   justify-content: center;
   width: 100%;
   background: var(--primary-light);
-  padding: 10px 20px;
+  padding: 10px 40px;
   color: white;
   font-weight: 600;
   font-size: 20px;
@@ -12732,7 +12733,7 @@ pre .code {
 .about-more-info {
   position: absolute;
   cursor: pointer;
-  right: 20px;
+  right: 18px;
   font-size: 10px;
   font-weight: 400;
 }
